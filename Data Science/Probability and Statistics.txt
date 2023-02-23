@@ -1,0 +1,58 @@
+Statistics and probability forms the basics of Machine learning and Deep learning algorithms, AI and Data Science
+
+Data? Data refers to facts and statistics collected together for reference or analysis.
+
+	Qualitative data (Qualitative data deals with characteristics and descriptors that can not be easily measured,
+			 but can be observes subjectively)
+	
+		Nominal Data (Data with no ranking i.e Gender )
+		Ordinal Data (Data with ordered series)
+	
+	Quantitative Data (Deals with numbers and things you can measure objectively)
+		
+		Discrete Data (finite number of possible values i.e number of students in class)
+		Continous Data (hold infinite number of possible values i.e weight of a person)
+Statistics? Is an area of applied maths concerned with data collecton, analysis, interpretation and presentation
+
+Baic Terminologies in statistics: 
+	Population (A collection or set of individuals or objects or events whose properties are to be analyzed) 
+	Sample (A subset of population is called 'Sample'. A well chosen sample will contaon most of the tinformation
+		abount a particular population parameter)
+
+Sampling Techniques (Is a statical method that deals with the selection of individuals observation with in a population
+			It's basically a short cut to studying the entire population)
+
+	Probability Sampling (this sample from a large population are chosen from the probability theory)
+		Random (Each member of the population has equal chance of being selected in the sample)
+		Systematic (In systematic sampling every nth record is chosen from the populatin to be a part of the sample)
+		Stratified (A stratum is a subset of the population that shares at least one common characteristic,
+		in this case it's gender)
+
+Types of Statistice:
+	Descriptive (It uses the data to provide description of the population, either through numerical
+	calculation or graphs or tables/Descriptive Statistics is mainly focused upon the main characteristics of data.
+	It provides graphical summary of the Data)
+	
+	Inferential (It makes inferences and predictions about a population based on a sample of data taken
+	from the population in question. Inferential statistics, generalizes a large dataset and
+	applies probability to draw a conclusion. It allows us to infer data parameter based on
+	a statistical model using a sample data.)
+
+Descriptive Statistics: Descriptive statistics is a method used to describe and understand the features of a specific data set
+			by giving short summaries about the sample and measures of the data.
+
+Measeres of Ventral tendency: includes mean(avg), median(middle value after arranging) and mod(most repeate value)
+Measures of Variability(spread): range(max-min), inter Quartile range(divide in Quartile and take avg and then Q3 - Q1),
+				 variance(Variance describes how much a random variable differ from its ecpected value)
+				and std daviation(xi - mean) it is the difference between each element from the mean,
+				Population variance and sample variacnce
+
+
+Information Gain and Entropy: 
+	Entropy:
+		Entropy measures the impurity or uncertain present in the data
+	IG:
+		Information Gain indicates how much "Information" a particular
+		feature/variable gives us about the final outcome
+
+1:02:00

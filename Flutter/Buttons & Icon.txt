@@ -1,0 +1,79 @@
+Icons
+
+  import 'package:flutter/material.dart';
+  
+  void main() => runApp(MaterialApp(
+    home: Home(),
+  ));
+  
+  
+  class Home extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {
+      return Scaffold(
+        appBar: AppBar(
+          title: Text("MyApp"),
+          backgroundColor: Colors.blueGrey,
+          centerTitle: true,
+        ),
+        body: Center(
+            child: Icon(
+              Icons.airport_shuttle,
+              color: Colors.lightBlue,
+              size: 50,
+            ),
+        ),
+        floatingActionButton: FloatingActionButton(
+          child: Text("click"),
+          backgroundColor: Colors.blueGrey,
+          onPressed: () {},
+        ),
+      );
+    }
+  }
+
+
+
+
+
+Buttons
+
+  import 'package:flutter/material.dart';
+  
+  void main() => runApp(MaterialApp(
+    home: Home(),
+  ));
+  
+  
+  class Home extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {
+      return Scaffold(
+        appBar: AppBar(
+          title: Text("MyApp"),
+          backgroundColor: Colors.blueGrey,
+          centerTitle: true,
+        ),
+        body: Center(
+            child: IconButton(
+              onPressed: () {
+                print('You clicked me');
+              },
+              icon: Icon(
+                size: 30.0,
+                Icons.email_outlined,
+              ),
+              color: Colors.amber,
+            )
+        ),
+        floatingActionButton: FloatingActionButton(
+          child: Text("click"),
+          backgroundColor: Colors.blueGrey,
+          onPressed: () {},
+        ),
+      );
+    }
+  }
+
+
+Raised and Flat Button

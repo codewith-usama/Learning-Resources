@@ -1,0 +1,37 @@
+In main function we return a root widget
+there is a text widget in home: Text('show when the app is load')
+
+
+Scaffold: Allow us to implement basic layout for our app
+	  A Appbar some buttons and more
+
+home: Scaffold()
+
+
+
+All widget starts with Capital letter
+
+
+home-> Scaffold->appbar->title
+
+
+
+import 'package:flutter/material.dart';
+
+void main() => runApp(MaterialApp(
+  home: Scaffold(
+    appBar: AppBar(
+      title: Text('My App'),
+      centerTitle: true,
+    ),
+    body: Center(
+      child: Text("Usama"),
+    ),
+    floatingActionButton: FloatingActionButton(
+      child: Text("click"),
+      onPressed:() {
+
+      }
+    ),
+  ),
+));

@@ -1,0 +1,45 @@
+As Data is spreading dy by data, we need someone who can understand, organize and processes this huge Data.
+
+IOT and huge amount of Data produced by social media we need data science to handle this data
+
+Data sciencist extract use full insight from your data and that can be used to grow your busniess
+
+Walmart Use Case: They use their customer data and use it to grow their busniess. They uses data which
+products trending and use it in sales
+
+Data Science: Surfacing the hidden insights that can help company's to do smart bussniess and make
+better decisions.
+eg: Netflix and Youtube video suggestion
+
+They investigate leads try to understand different patterns in order to find any useful insight.
+ Maths, Technology (Sql, R, Python, SAAS) and Busniess
+
+Skills Set Needs:
+	Statics
+	programming languages
+	Data extraction (Extract and Storing Data)
+	Data wrangling and exploration(Cleaning Data, NUll values and inconsistent values)
+	Machine Learning
+	Big Data processing frameworks(Data Driven problem solving)
+	Data visualization
+
+Job Roles
+	Data Scientist (understand the problem of busniess and they have to offer the best solution)
+	Data Analyst (Visualizing, processing huge amount of data, databases and optimization)
+	Data Architect (Creates the blue print for data system)
+	Data Engineer (Built and test big and scalable eco system, updating system)
+	Statistician (logic, sql, and mining)
+	Database Administrator (responsible for proper working of database, also responsible for database recovery and backups)
+	Busniess Analyst(Busniess growth, understaing busniess)
+	Data & Analyst Manager (Responsible for data science operation, assiging duties, management and social skills)
+
+
+Data Life Cycle
+	Busniess Requirment (Understanding the problems)
+	Data Acquisition (Start gathering Data, how, where and store this Data)
+	Data Processing (Cleaning, missing values, corrupted values and remove unnecessary values)
+	Data exploration (Understand the pattern in Data, retrieve useful insight and visualization)
+	Modelling (Spliting input data in traning and testing data set, build the model with traning
+	dataset and evalute traning and testing dataset using series of macine learning and in
+	last we will find a model suitable for our busniess)
+	Deployment (Deploy in production or in production like enviroment)

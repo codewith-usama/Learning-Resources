@@ -1,0 +1,24 @@
+everything inside a flutter is widgets
+
+Root Widget: That surround everthing in the entire app
+App Bar Widget inside Root: as at the top
+Text Widget inside App bar: to write text
+
+
+	ROOT
+ App Bar     Container (below Root)
+ Text        Text
+
+like as Tree
+
+
+Types of widget
+Text   (style, textAlign, overflow, maxLines, etc)
+Button  (color, elevation, disabledColor, enabled, etc)
+row
+Column
+Image
+
+In flutter all widget are classes, each wigdet has it's own programmatic class
+which defines it's bahaviour and also how it looks on the screen.
+We use Dart programming Language in Flutter

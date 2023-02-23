@@ -1,0 +1,37 @@
+Variables: dart in also known as statically typed programming language, means if we declare a variable
+later we cannot the type of vairable i.e int to str
+
+int  1
+String  "Usama"
+bool false
+
+Dynamic variable: can change type of variable during the program better to avoid this
+
+
+Functions: 
+int age() {}
+int age() => "usama";
+
+
+List array
+
+List names = ["Usama", "Ahemd"]
+
+names.add("Ali"); // for new members addding to list
+names.add("Taha");
+names.remove("Ali"); // for deleting elements from list 
+
+
+dynamic vairble List<int> age // cannot declare any value except int
+
+
+
+Classes: 
+class className {
+}
+
+className obj name = className();
+
+class className extends ParentClassName {
+	className(String name, int age): super(name, age);'
+}
