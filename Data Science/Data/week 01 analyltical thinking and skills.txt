@@ -1,0 +1,23 @@
+5 ways of analyltical thinking
+1. Visulization(Graphical represetation of data includes Graphs and Maps)
+2. Strategy(What and how they want to acheive)
+3. Problem-oriented(idetnify, describe and solve problem)
+4. Correlation(identifying between 2 or more amount of diff data)
+5. Big-picture and detail-oriented()
+
+frequent Qs by Data Analytict
+1. Root Cause(The reason why a problem occurs)
+   	Ask five "why"
+2. Gaps in our process
+	Gap analysis
+3. what do we not consider before
+
+5 essential analytical skills
+1. Curiosity
+2. Understanding context
+3. Having a techinal mindset
+4, Data design
+5. Data strategy
+
+
+* Data-driven decision-making(using facts to guide busniess stragety)

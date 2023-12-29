@@ -1,0 +1,7 @@
+Node js
+
+first start npm (npm init)
+
+then make a server
+
+

@@ -1,0 +1,23 @@
+Designing App UI via writing code in XML (Layouts)
+
+ We can design by two methods
+  Drag and drop
+  By writing code
+
+Runtime and logic building will be done in java files
+UI part will be done in xml files
+
+xmlns (namespsce URI) (Uniform Resourse Indicator)
+ In computing, it is a string of characters used to identify a nam of a resource
+ Such identification enables interaction with representations of the resource over a network using specific protocols.
+
+Important Attributes
+ android:id
+ android:layout_width (required)
+ android:layout_height	 (required)
+ android:text
+
+
+
+
+

@@ -1,0 +1,24 @@
+What is Front End and Back end in Android App
+
+What is Language?
+ A way of communication
+ A programming language is a formal language comprising a set of instruction that produce various kinds of outputs
+ Most programming languages consists of instructions for computer
+
+Static and dynamic Apps:
+ Static application are not reliant on Internet connection to an online server or database 
+ Synamic application are in some way reliant on an online server or database
+
+Front End language:
+ Its all about what a user able to see
+ Its may be buttons, images, layout, input field etc
+ To design these components in android we need XML and Android programming(Java/Kotlin)
+
+
+Back End language:
+ Backend of anything is not visible to general user or administrator
+ It can be a piece of code or a program running on the server machine to server the user need
+ Database is also a part of backedn i.e., SQLite
+
+
+

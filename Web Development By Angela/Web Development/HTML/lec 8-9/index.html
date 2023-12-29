@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Text</legend>
+            <label for="email">Enter your Email:</label>
+        <input type="text" id="email" placeholder="abc@gmail.com">
+        <br/> <br/>
+        <label for="date">Choose Date:</label>
+        <input type="date" id="date">
+    </fieldset>
+        <br/> <br/>
+        <fieldset>
+            <legend>Second FieldSet</legend>
+        <label for="dishes">Pick Dish:</label>
+        <select  id="dishes">
+            <option value="maggi">Maggi</option>
+            <option value="kurkure">Kurkure</option>
+            <option value="paratha">Paratha</option>
+        </select>
+        
+        <br/> <br/>
+        <textarea  id="description" cols="15" rows="10" placeholder="text here..."></textarea>
+        <br/> <br/>
+        <button>Submit</button>
+        
+    </fieldset>
+    </form>
+    <br/><br/>
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+        <br/><br/>
+        <label for="button">Click Here</label>
+        <input type="submit" name="button" id="button" value="Subcribe">
+        <br/><br/>
+        <label for="radio1">Radio 1</label>
+        <input type="radio" name="radio1" id="radio1">
+        <br/><br/>
+        <label for="radio2">Radio 2</label>
+        <input type="radio" name="radio1" id="radio2">
+        <br/><br/>
+        <label for="radio3">Radio 3</label>
+        <input type="radio" name="radio1" id="radio3">
+        <br/><br/>
+        <label for="checkbox1">Urdu</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+        <br/><br/>
+        <label for="checkbox2">Hindi</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2">
+        <br/><br/>
+        <label for="checkbox3">English</label>
+        <input type="checkbox" name="checkbox3" id="checkbox3">
+        <br/><br/>
+        <label for="file">Upload File:</label>
+        <input type="file" name="file" id="file">
+        <br/><br/>
+        <input type="image" name="image1" id="image1" src="arrow.png" alt="image"
+        width="100px" height="100px">
+    </form>
+</body>
+</html>

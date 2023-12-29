@@ -1,0 +1,14 @@
+What is APK?
+ It is a package file format used by Android Operating system for distribution and installation of Mobile apps
+ It means Android Application Package
+ similar to executable file .exe in Windows Operating Systems
+
+ The extension of Apk file is .apk
+ It is installed on Android Operating Systems
+ It consitts of
+	Application code(.dex files)
+	Manifest file
+	Assets
+	Resource files
+
+

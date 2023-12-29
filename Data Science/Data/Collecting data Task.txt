@@ -1,0 +1,8 @@
+Firstly they have to keep record of ice-cream selling and its types such as: is it small, regular or
+large, flavor of ice-cream and selling per day.
+For gathering this type of they can just install a software in which they will be adding the details
+of customer order as we discussed above and can store in a Database.
+On the basis of data collection Data analyst can Now solve the problem and come up with a solution
+whether customer are buying i.e strawberry or chocolate, or what's the size of ice-cream and number
+of ice-cream sold per day
+Now in the end when the problem is solved and we come up with a valid information so we can destroy it.

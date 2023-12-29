@@ -1,0 +1,23 @@
+What is Android & How it Work?
+
+Android is an open-source Linux-based Operating system.
+
+Operating system: An Os is a software program that enables the Hardware to communicate and operate with the hardware.
+It takes input through Software and display output through hardware.
+
+Operating system: Is a interface between User and hardware.
+
+OS provides a Software platform on top of which other programs, called application programs, can run. 
+
+What is Linux?
+Linux is a family of free and open-source software operating systems built around the Linux kernel.
+
+What is Opensource?
+1. The source code of a computer program is made available free of charge to the general public.
+
+2. Users can view the code that comprises the software and make any kind of changes to it they want.
+
+3. Anyone can take the source code and distribute their own program from it.
+
+
+

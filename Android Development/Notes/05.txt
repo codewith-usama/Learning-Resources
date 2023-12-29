@@ -1,0 +1,10 @@
+What is ADB and AVD in Android?
+
+For debugging
+ Run on Real Device (Android Debug Bridge)
+ Run on Virtual Device (Android Virtual Device)
+
+Also helpful for debugging on different OS 
+
+
+

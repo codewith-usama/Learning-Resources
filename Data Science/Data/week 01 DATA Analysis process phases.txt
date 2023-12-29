@@ -1,0 +1,18 @@
+DATA Analysis process phases
+1. Ask (We define problem to solve and make sure we fully understand the stcakholder's(people who
+	invsted time and resourse in the project) expectation, this part will also help you to focus 
+	on the project, 5 why's are important here)
+2. prepare (collect and store data for upcoming analysis)
+3. Process (cleaning, transfering it in a meaningful format and remove outliners, also fix typos)
+4. Analyze (using tool to tranform and organize that information so you can draw useful conclusion 
+	make prediction and drieved informed decision making
+	Powerful tools, we will be using SpreadSheet and SQL)
+5. Share (share results with stackholder to make effective data-driven decision)
+6. Act ()
+
+Tools data Analyst used 
+1. Spreadsheet (Microsoft Excel and Google sheets)
+2. SQL (A computer programming language that allows you to retrieve and manipulate data from a
+	database(A collection of Data stores in Computer Sytem), it's easy to understand)
+3. Visualization tools (The graphical representation of information (Graphs, maps and tables)
+	tools(Looker and tabuleau))

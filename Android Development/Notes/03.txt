@@ -1,0 +1,16 @@
+What is IDE for Android?
+
+Integrated: All facilities included
+Development: Developing/Building the software
+Enviroment: All the resources for development group in a single enviroment.
+
+ Enables progrmmers to condolidates the different aspects of writing a computer program.
+ Increase Efficieny - faster coding with less effor
+
+Main featured of IDE
+ Editing source code
+ syntax highlighting
+ Autocomplete (suggestion)
+ Building executables
+ Debugging (Manual Testing)
+

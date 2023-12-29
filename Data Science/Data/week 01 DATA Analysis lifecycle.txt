@@ -1,0 +1,15 @@
+Data analyst life cycle
+
+1. Planning (Which kind of data it's need, how it's gonna manage throughout it's life cycle, who will
+	be resposible for it and the optimal outcomes)
+
+2. Capture (Collecting data from different organization and brought into organiztion)
+
+3. Manage (Care for data, how and where to store, the tool to keep it save and secure and the action
+	taken to make sure that it maintains properly) This phase is very important for data cleaning
+
+4. Analyze (data is used to solve problems, make decision and support business goals)
+
+5. Archive (it data is not used for a longer time make it Archive rather than to take it around)
+
+6. Destroy (Important to protect company's private information as well as private data from customers)

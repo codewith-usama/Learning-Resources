@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 4</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+        <fieldset style="background-color: plum;">
+
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name">
+            <p style="display: inline;">(max 30 characters a-z and A-Z)</p>
+            <br/> <br/>
+
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name">
+            <p style="display: inline;">(max 30 characters a-z and A-Z)</p>
+            <br/> <br/>
+
+            <label for="day">Date of Birth</label>
+            <select name="day" id="day">
+                <option value="">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <select name="month" id="month">
+                <option value="">Month</option>
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+            </select>
+            <select name="year" id="year">
+                <option value="">Year</option>
+                <option value="1">2001</option>
+                <option value="2">2002</option>
+                <option value="3">2003</option>
+            </select>
+            <br/><br/>
+            
+            <label for="email">Email ID:</label>
+            <input type="email" name="email" id="email">
+            <br/><br/>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone">
+            <p style="display: inline;">(10 digit number)</p>
+            <br/><br/>
+
+            <label for="gender">Gender</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <br/><br/>
+
+            <label for="address">Address</label>
+            <br/>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </fieldset>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+Android Verdions A to Z:
+
+Why version?
+A new change (If a previous version has bugs or you want to update some changes, that's why companies launch new versions.)
+
+Why do versions start with C?
+Because previous companies launched two versions, after Google acquired them, it started giving version names in alphabetic order.
+
+
+Cupcake 1.5:
+ search, main, and contact
+ support widgets
+
+Donut 1.6:
+ search expanded to include bookmarks and history
+ more camera integration and features
+
+Eclair 2.0-2.1
+ The search expanded to include SMS and MMS.
+ More camera features include flash, zoom, and white balance.
+
+Froyo 2.2.3
+ support for Bluetooth hands-free
+ push notifications
+ Wi-Fi hotspot
+ greater screen resolution
+
+Gingerbread 2.3-2.3.7
+ echanced copy/paste
+ front-facing camera
+ AAC audio 
+ near-field communication
+
+Honeycomb 3.0-3.2.6
+ introduced on the Motorola Xoom
+ was a tablet-only version
+
+Ice cream sandwich 4.0-4.0.4
+ combine tablet and mobile versions
+ introduced NFC data transfer
+
+Jelly Bean 4.1-4.3.1
+ introduced voice search.
+ swiping gesture, predictive text
+
+Kit-kat 4.4-4.4.4
+ support for older phones with less than 1 GB of RAM
+ OK Google" was added to activate a voice search.
+
+Lollipop 5.0-5.1.1
+ A redesigned user interface, known as material design
+ Enterprice features included separating personal and business apps.
+
+Marshmallow 6.0-6.0.1
+ Android runtime permission is included.
+ standardised fingerprint support
+ Automatic data backup to the Google Cloud
+ The Google Now voice search could be accessed from the lock screen.
+
+Nougat 7.0-7.1.2
+ Emergency information could be displayed on the lock screen.
+ The settings menu showed more information without going to the second level.
+
+Oreo 8.0-8.1
+ Improve battery life and performance by limiting what apps can do in the background.
+ Users have more control over notifications.
+
+Pie 9.0
+ It improves battery life by offering adaptive features such as learning how to use and change brightness.
+ Pei also predicts what you might do next. Slices display relevant parts of apps, and gestures can be used in addition to buttons.
+
+

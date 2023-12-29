@@ -1,0 +1,42 @@
+What is XML
+ Extensible Markup Language
+ It is used for storing and transfering data
+ It is a markup language much like HTMl
+ Unlinke HTML, XML is case-sensitive
+ XML Tags need not to be predefined like HTML
+ It was designed to be self-descriptive
+
+XML in Android
+ We create XML layouts in Android, and later alter them using Java logic
+ Resources are the additional files and static content and application needs, such as animation, color schemes, layouts, menu layouts.
+ Each layout file must contain one (and only one!) root element
+
+View
+ It represents rectangular are of the screen, and is responsible for displaying information or content, and event handling.
+ Text, images, and buttons are all views in Android.
+
+ViewGroup
+ It is essentially an invisible container that holds multiple Views or ViewGroup together, and defines their layout properties
+
+Common View Groups
+ A List View displays a list of scrollable items
+ A Grid View displays items in a two-dimensional scrollable grid
+ A Table Layout group views into rows and column
+
+Root View
+ It is Root element of XML layout file
+Common View Groups
+ A Linear Layout align its contents into a single direction, whether vertical or horizontal.
+ A Relative Layout displays its child content in positions relative to the parent
+ A Frame layout is a placeholder on a screen that display only a single view (Fragments)
+
+
+
+
+
+
+
+
+
+
+

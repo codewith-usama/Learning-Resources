@@ -1,0 +1,16 @@
+h1 {
+    color: black !important;
+}
+.para1{
+    color: aqua;
+}
+#para2{
+    color: aquamarine;
+}
+article {
+    color: blue;
+}
+
+p, article {
+    width: 400px;
+}

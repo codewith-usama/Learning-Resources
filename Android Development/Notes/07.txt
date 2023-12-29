@@ -1,0 +1,19 @@
+Debugging in Android Apps
+
+
+Using Log
+- It is used to display system messages, such as when a garbage collection occurs, and messages that you added to your app with the Log class.
+
+- It displays messages in real time and keeps a history so you can view older messages.
+
+
+Logcat
+- Same as log, just difference is that logcat always check the LOGS property that it is true or false before logging any message.
+
+Using Debug Mode
+Attach a Debugger
+
+Using Break Points
+
+Using Toast
+
