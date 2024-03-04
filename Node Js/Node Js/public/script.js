@@ -1,1 +1,0 @@
-console.log("Hi, it's public directory");
