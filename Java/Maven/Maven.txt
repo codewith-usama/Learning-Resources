@@ -1,0 +1,81 @@
+Why
+1. Help us in building up the source code by downloading dependencies
+2. Help us in getting JAR files for each and every project
+
+What
+Popular open-source build tool
+main reason is to publish, build and deploy several projects at once
+It's written in Java and is used to written in C#, Scala, Ruby etc
+Tool is to build and manage any kind of java-bases project
+
+It is based on POM(Project Object Model) and focuses of simplification and standardization of the building process
+
+In the process, it take care of the following
+
+1. Builds
+2. Dependencies
+3. Reports
+4. Distribution
+5. Releases
+6. Mailing List
+
+
+Maven Repository:
+location where we have all the JAR file packaged at the single location
+
+1. Local repo ( machine of the developer where all the material is saved)
+2. Remote repo ( on a web server which is used when Maven needs to download dependencies, this repo works same as the Central Repo. Whenever anything is needed from remote Repo it is first downloaded to the Local repo and then it is used)
+3. Central repo ( refers to Maven community that comes into action when there is a need of dependencies, and those dependencies cannot be found in the Local Repo)
+
+Basic Concept:
+POM (Project Object Model) it refer to XML file, that contains all the information regrading project and configuration details
+
+XML file is in the Home directory. Maven searches for the POM in the current directory when any task is to be executed
+
+Dependencies and Repo:
+
+Dependences usually refers to JAR files
+If dependencies are not present in your local repo, them Maven downloads them from a central repo and stores them in the local repo
+
+Build Life Cycles, Phases and Goals: 
+Each goal is resposible for a particular task
+
+Build profiles: Build profiles refer to the set of configuration values, that are required to build a project using different configurations
+Diff build profiles are added to the POM files when enabling different builds
+A build profile helps in customizing build for different environments
+
+Build Plugins:
+goal is to make automate some stuff, like JAR and VAR file and Compilation
+has it ows standard plugins
+we can also implement our own in Java
+
+Maven Architecture:
+Maven -> Read pom.xml POM File(Dependences, Plugins, life Cycle phases and goals, build profile) -> Maven repo
+
+
+Maven Build Life Cycle:
+Default (handles project deployment)
+Clean (handles project cleaning)
+Site (handles the creation of project site's documentation)
+
+
+Build life cycle has diff build phases
+Compile -> Test-compile -> Test -> Package -> Integration-test -> Verify -> Install -> Deploy 
+
+Advantages of Maven: 
+helps manage all the processes, such as building, documentation, releasing, and distributon in project managment
+
+The tool simplifies the process of project building. It increases the performance of the project and the building process
+Task of downloading JAr files is also down automatically
+It is easy to add new dependencies, you must write the dependency code in the pom file
+
+
+It is used to generate Documentation to reduce human error while making software manually
+It is written in java
+
+3:20
+
+
+
+
+

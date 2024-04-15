@@ -1,0 +1,9 @@
+Make sure that there exist only one instance of  Class by defining one objectby making all the
+constructor of class to private. We provide a static property that return a single instant of object
+
+Why we need to seal singleton class?
+Making the class prevents someone from trivially working around your carefully-constructed singleton class beacause
+it keeps someone from inheriting from the class.
+
+Thread Safety in singleton.
+Checking twice the object as there may be possibility that multiple process request at the same time as in parallel computing

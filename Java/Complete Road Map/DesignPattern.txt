@@ -1,0 +1,62 @@
+https://www.youtube.com/watch?v=z3SRC2ckJhI&list=PLWPirh4EWFpGeQoTYL5YpzBz8Gjw-sxJb
+https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc
+https://www.youtube.com/watch?v=rI4kdGLaUiQ&list=PL6n9fhu94yhUbctIoxoVTrklN3LMwTCmd
+
+
+
+Gang of four suggested 23 design pattern
+Creational Design Pattern:Abstract factory, Builder, Factory method, Prototype and Singleton
+Structural Design Pattern:Adapter, Bridge, Composite, Decorator, Facade, Flyweight and Proxy
+Behavioral Design Pattern:Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template method, Visitor
+Ambion Design Pattern
+DESIGN PATTERN OVERVIEW:represents all the best practices used by experienced object-oriented software developers.Design patterns are solutions to general problems that software developers face during software development.
+Characteristics:Smart: Elegant solution that a novice would not think of immediately.
+Generic: Normally not dependent on a specific software system, any programming language or application domain. They are generic in nature.
+Well-proven: They have been identified from a real, OO system. They are not results or simple paper work, but they have been successfully tested in several systems.
+Simple: They are usually quite small, involving a small number of classes. The complex systems are built using different design patterns and their combinations.
+Reusable: they are documented in  such a manner to increase reusability.
+Object Oriented: They are built with the basic OOp mechanisms such as classes, objects, generalization and polymorphism.
+
+
+Gang OF FOUR:In 1994, four C++ developers published a book Design Pattern-Elements of Reusable Object-Oriented Software which includes 23 design patterns.According to them, design patterns are based on the following principles of object oriented design.1. Program to an interface not an implementation2. Favor object composition over inheritance
+
+
+USAGE OF DESIGN PATTERN:1. Common platform for developers: getting a comman template, solution for development.
+2. Best Practices: 
+
+
+TYPES: 
+Another category of design pattern J2EE Design pattern
+
+Creational desin Pattern:
+These design patterns provides a way to create object while hiding the logic
+and rather than instantiating objects directly using new operator
+
+Structural Design Pattern:
+These design pattern concern class and object composition. Object of one class is used
+in another class in known as Object composition.
+Concept of inheritance is used to compose inerfaces and define ways to
+compose objects to obtain new functionalites.
+
+Behavioral Design Pattern:
+These specially concerned with communication between objects.
+
+J2EE Design Pattern: Specifically concerned with the presentation tier
+i.e MVC
+
+Benifits:
+Increased productivity
+Promote reuse of development efforts
+Describe proven solutions to common problems
+Increase the consistency between applications
+Potentially better than reusable code.
+Since, the system platform make the reusable code difficult to use.
+
+Drawbacks of Design Patterns:
+Insist the developer to learn a large number of patterns (there are so many design pattern that a developer have to read to implement most suitable for their project)
+NIH(Not-invented-here) sydrome can get it the way.
+Many developers are not willing to accept the work of others
+It is very hard to acccept to reuse the ideas, since each problem is unique.
+Pattern is quickly becoming a buzzword by marketing people rather than its intend.
+
+

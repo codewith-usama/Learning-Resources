@@ -1,0 +1,81 @@
+string and it's functions
+
+concatenation using + 
+string.length()
+string.charAt()
+string.replace('a') original string doest not change, strings are immutable
+string.substring(0, 3) second index will not include
+
+
+Array
+1-D
+int[] marks = new int[3]; // if don't know values
+int [] marks = {1, 2, 3}
+
+2-D
+int [][] marks = {{1, 2}, {3, 3}}
+zero or null value by default in variables in java
+arr.length // property
+
+import java.util.Arrays;
+Arrays.sort(arr) // class name with capital letter
+
+
+Casting transfer types
+implict casting done itself by java
+storing integer in double
+
+explicit casting done ourself
+(int)18.0
+
+constant
+final int name; // constant name in capital
+
+Uniary operators ++ --
+
+Math Class
+
+Math.min(1, 2)
+Math.miax(1, 2)
+
+(int)Math.random()*100 
+
+Taking Input
+using Scanner class
+import java.util.Scanner;
+Scanner sc = new Scanner(System.in)
+int age = sc.nextInt();
+print
+float age = sc.nextFloat();
+print
+String name = sc.next(); // single word
+String name = sc.nextLine(); // multiple word
+
+if else
+
+switch
+
+switch(name) {
+case 1:
+	print
+	break
+default
+}
+
+loop
+for(int i = 0; i < 2; i++) {}
+while loop
+do {
+}
+while()
+
+break out from loop
+continue skip the current iteration
+
+
+Exception handling
+try catch
+
+Methods 
+calling function fun(a:1, b:2)
+

@@ -1,0 +1,46 @@
+https://www.youtube.com/watch?v=6EF8XPJp-No&list=PL0zysOflRCenjuvOwumYLG9TCsEQZrV2M
+https://www.youtube.com/watch?v=BOUMR85B-V0&list=PLhs1urmduZ2-yp3zID5rMEmXDETN8xvMo
+
+Database where we store our data. This can be flat file system, rdbms, nosql, big data.
+When we want to connect our java with database we require jdbc, now we have four diff types of 
+drivers i.e Native, Native Api, pur java drivers
+Seven steps to connect our java application with data base
+1. import the package (phone for calling)
+2. load and register the Driver (sim card)
+3. Establish the Connection (dail number)
+4. Create the statement  (think about wt to do)
+5. Process/ Execute the query (speak)
+6. Process results (response)
+7. close/statement (quit)
+
+1. Package (java.sql.*)
+2.1. Load (commysql.jdbc.Driver) for this we need jar file/library mysql-Connector
+2.3. Register (class.forName ("com.mysql.jdbc.Driver"))
+3. Establish (Instantiate Connection interface)
+4. Statement (Normal, prepared and collable statement)
+5. Execute 
+6. process
+7. close
+
+
+practicle
+import java.sql.*;
+main()
+{
+Class.forName("com.mysql.cj.jdbc.Driver"); // 2b
+Connection con = DriverManager.getConnection("url of db", "username", "pass"); // 3 and this getCon is a static method
+Statement st = con.createStatement();// 4
+ResultSet rs = st.executeQuery("select * from employees"); // 5
+print it rs.getInt(columnNumber)
+st.close();
+Con.close();
+
+oracle Founders: Larry Ellison, Bob Miner, Ed Oates Founded: June 16, 1977, Santa Clara, California, United States
+
+
+
+
+
+
+
+

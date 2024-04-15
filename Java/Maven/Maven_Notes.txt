@@ -1,0 +1,101 @@
+what is Maven (Build Tool or Manages dependencies)
+Important (Maven is a Java project Managment tool). It manages whole project
+In java we don't put our whole project at a single place, we need testing code, and other stuff from third parties so we used connectors 
+.jar (java archive) .war (web archive) used as a connector i.e (if we want to use mysql in our project) .jar and .war works as a connectors
+
+Dependency libraray is must to write code easily 
+
+in java we gather different code from diff sources and combine those to make a complete Java project
+
+Java Project Structure:
+
+1. Source Code
+2. Test Code
+3. Project Structure (assets, directories, Resources)
+4. Dependencies/ library
+5. Configuration
+6. Task Runner-build, test, Run
+7. Reporting
+
+
+WHy Maven:
+Problems wothout Maven:
+Addin set of jar file in each project
+Creating the right project structure (filename and their extension, managing folder and hirarchy)
+Building and deploying(again it is also a complex task)
+
+What Maven Does??
+It makes project easy to build
+it provide project 
+
+easy to add new dependencies
+therefore Apache Maven helps to Manage:
+Build
+Dependencies(downloadin)
+Reports
+Release
+Distribution
+
+
+What is build too?
+A build tool take care of everything for building a process.
+It does following
+Generate Source COde(i.e from gtihub)
+Generate documentation from source code
+compiles source code(convert code into 01 from)
+install package code in local repo
+server repo or central Repository
+POM(Project Object Model)
+Main configuration file pom.xml (includes dependencies and compier we need during poject and configuration details related to project)
+Convention (fixed already) configuration (changing acc to ur ease)
+
+It has dec of the project, details regarding the versinonig and configuration managment of the project
+xml file in the project home directory
+version (10(major).2(minor).1(patch))
+
+pom.xml contains
+Meta Data (data of data, date of code)
+dependency
+kind of project
+kind of output9 (.jar, .war)
+Description
+
+One project contains one workspace and one pom.xml file
+
+Maven Architecture
+Ruquirment for build
+Source Code(Present in workspace)
+Compiler (Remote repo->local repo->workspace)
+Dependencies (Remote repo->local repo->workspace)
+
+First it get Source code from gitHub repo, then we define the dependencies in pom.xml and commands goals. After this it will ask to fetch dependency from .M2 local repo in pc if found return it otherwise ask from remote/central repo for that particular repo and after this it will also creates a local repo in .M2
+
+Local repo: refers to the machine of developer
+Remote repo: refer to the repo present on a webserver which is used when Maven in needs. first it will download in local repo than come in pom.xml
+Central repo: refers to the Maven community that comes into action when there is a need of dependencies and these dependencies cannot be found in the local repo
+
+Maven lifecycle:
+1. Generate Resoource (Dependencies)
+2. Compile Code
+3. Unit test
+4. Package (Build)
+5. Install (into local repo & artifactory)
+6. Deploy (to servers)
+7. clean (delete all run tome file) eg mvn install, mvn cleean package
+
+Maven follows a sequence
+
+Ant					Maven
+There is no life cycle			There is a life cycle in Maven
+It is a tool box  			It is a framework (we can configure makes changes)
+It is mainly a build tool		It is mainly project managment tool
+It is less prefered than maven		It is more preferred
+
+
+
+Package
+Package is kind of folder in which we group related classes
+
+
+
+

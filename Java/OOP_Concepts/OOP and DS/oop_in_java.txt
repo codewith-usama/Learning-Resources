@@ -1,0 +1,52 @@
+main.java includes only one public class
+object class p1 = new class();
+by defalut attributes are public
+methods
+function overloading compile time polyphorphism same fun in same class
+function overriding runtime polyphorphism sam fun in diff class
+
+polyphorphism()
+
+Constructor
+
+static will be of class property like count for checking the number of object in class
+accessing classname.staticvariablename
+
+constructor overloading
+
+this() calling another constructor from a constructor 
+this.classvariable = variablename
+
+Inheritance:
+Parent Child relationship
+Inheritance uses extends keyword
+
+super uses parent class constructor
+every object parent is object class 
+
+
+
+Packages (folder structure) and Access modifier:
+Encapsulation for security reasons
+getter and setter
+for hiding specific information
+
+Abstraction:
+hiding complexity
+
+abstract keyword and interfaces
+abstract class don't have object as well there will not be any definition of any abstract functioon in abstract class
+
+@override 
+abstract function definition in child class
+
+abstract function class must be abstract
+
+
+Interfaces: in this methods by default abstract, in abstract no definition of function can be defined
+interface keyword
+
+
+classname implements interfacename 
+
+

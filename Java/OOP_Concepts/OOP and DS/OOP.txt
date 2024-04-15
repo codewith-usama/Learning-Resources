@@ -1,0 +1,174 @@
+Inheritance:
+
+Java does not support Multiple Inhertance (A child class cannot have two parent class)
+In Java we use extends keyword for inheritance
+object creating
+	classname object = new classname();
+
+
+when we have constructor then 
+	constructor (variables) {
+	super(variables for parent class);
+	variables of child class
+	}
+the super must be called at the begning of the child class construtor
+
+Encapsulation:
+Java can also create getter and setter automatically
+In encapsulation we group our data and make it private and if we want to change it later,
+you can make getter and setter for accessing and changing it from outside the class
+
+
+Abstraction:
+when we don't want to show specific data to user we use Abstraction, in this we can use public,
+private and protected keyword for allowing access
+
+Abstract Class:
+we cannot make an object of an abstract class
+we can make function, variable in abstract classes but when we
+define a function abstract it's definition must be in child classes
+
+If we make a constructor of abstract class and when we call constructor of child it will
+first call the constructor of abstract class
+
+
+MethodOverloading or functionoverloading:
+With in same class
+when we define different methods with the same name in the same class then it is methodoverloading
+name of method must be same, return type, signature and it's type can be change in order to make these mehods overRiding
+
+
+MethodOverRiding or functionoverriding:
+when parent class define an instant method and child class define the same mehtod with same name, signatures and return type then only it is called method overRiding
+If we create a static mehtod the same static method will be availabe to all the object of the class
+instant mehtod are unique to each object 
+
+overriding static method in child class is not allowed
+if parent have static method and child have instant mehtod error
+if parent class has instant mehtod and child have static mehtod it generate error
+if both method are static then super class static mehtod will be hidden
+
+overRiding uses inheritance
+
+@Override is used to make a function override in child class
+
+
+
+Exception Handling:
+If there can be possiblity of an error in program and we don't want to crash it we use try and catch clauses
+
+In exception handling we have try, catch and finally clauses
+in try we put the code if an error can be generated in catch we catch the error and in finally we want to perfom some
+operations against that error
+
+the finally clause will always be excuted if the error occur or not
+we can nest try and catch clause with we can Re Throw the exception from catch clause using throw clause
+re throw will throw the exception to it's imediate upper try block
+if a catch clause will not accepting any exception it will not bo execeted
+
+
+
+
+
+
+Hashset:
+part of set interface hirarcy, sets have a property that keeps collection elements unique, if we try to add duplicant it will
+not allow us to add. It also accept NULL ELements
+Elements can be access in a random action
+
+Set or Hashset<String/datatype> hashset = new Hashset<String/optional>(size);
+hashSet.add("A");
+hashSet.contains("C") returns true or false
+hashSet.remove("A")
+for(String item: hashSet) {
+	print(item)
+}
+
+hashSet contains uniquiness
+how it add and remove elements
+hashset one of the implementation of set hirarchy
+
+TREESET:
+usage when we want to maintain natural ordering of the elements
+treeset cannot have duplicat element
+treeset is not synchronized so it is not a thread save collection if you want to use treeset in a multithreaded enviroment you need to write more code around it so that treeset work accordingly
+
+import java.util.Treeset;
+TreeSet<String/datatype> treeset = new TreeSet<String/optional>(size);  
+if we try to add anyother element other than datatype it will through an compilation error
+treeset.add("1"); it will add in order i.e sorting
+natural order is automatically maintain by treeset
+sorting is according to data type as String is a class in java so it used String class sorting function but if you add you custom key class you need to tell java how to sort elements
+ 
+   * Hashset is the random access element collection list, hashset can print in random
+
+treeset.remove(A)
+treeset.contains(A)
+
+
+
+MAPS:
+key value sort of arrangment (key,value)
+Map provide an interface that every class underneath would be working as a key value arrangment
+
+key must be unique but value can be same
+key are technically stored as a set because we want to keep them unique
+Map uses a set class to store it's keys and for value it generally uses a List class
+
+
+Hashtable is a synchronized for which is thread safe
+Hashtable are slower because one thread can access at a time
+TreeMap also stored the key value arrangment but it will provide a sorted representation and sorting happens on the keys not on the values
+In LinkedHashMap we can access in the order they are inserted
+
+
+HashMap:
+key, value. Keys are stored in a set fashion and values are stored in List fashion. It's not by default synchronized we need to do something else to make it synchronized
+
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+
+HashMap<String, Integer> map = new HashMap<>(size);
+map.put("a", 10);
+map.put("b", 11);
+map.put("c", 12);	
+map.size() return size
+print(map)
+// output  {a=10, b=11, c=12}
+
+map.containsKey("a") for checking if the key is present or not for getting the value
+map.get("a") for getting the value against the key
+
+iterating on all the keys
+for (String key : map.keySet() )
+	print(key)
+
+if we know all the keys and we just want to print it
+Entry (is the class which is comming from map collection hirarcy) 
+
+for (Entry<String, Integer> entry : map.entrySet() )
+	print( entry.getKey(), entry.getValue() )
+
+
+import java.util.TreeMap;
+
+TreeMap:
+TreeMap<key, value>	
+TreeMap<Integer, String> treeMap = new TreeMap<>(size);
+treeMap.put(3, "A")
+treeMap.put(2, "B")
+treeMap.put(1, "C")
+
+naturally ordered, automatically sort according to keys
+sorting according to keys class if we have our custom key we need to tell java how to sort it
+
+sorted automatically
+
+
+HashMap allow a single null key and multiple null values
+TreeMap does not allow null keys but can have multiple null values
+
+
+ 

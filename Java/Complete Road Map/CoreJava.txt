@@ -1,0 +1,318 @@
+How java Works type the code, need compiler for compile it and then run it 
+variables name starting with alphabte, $ and _
+Data types int, doule, long=100000l, float, short 2 bytes, byte 1 byte, char = 'c'
+type casting (int)2.3
+Naming convention, variable, methods, class and interfaces names should be meaningful
+Interface should be Adjective
+class name should be noun first letter should be capital
+Method will be verb
+variables should be meaningful
+constant should be constant all in capital
+
+Operator in java
+Arithmetic +, -, *, /, %
+Bitwise << >>
+Relational <, >, <=, >=, ==
+Logical &&, ||, !
+n+= 1
+n++
+
+If else, switch and Ternary
+if
+else if
+else
+
+
+Switch will not work with double. it will work with with
+string depending upon version
+switch(name)
+case 1:
+//code
+break;
+default:
+//code
+
+j = i>2?1:2;
+
+
+Loop
+While(condition) { }
+
+do { 
+}while(condition);
+
+for(int i=0; i < 5; i++) { } 
+
+
+nested loops
+for() {
+	for() { }
+}
+
+
+Break and Continue
+
+Break came out of the loop
+continue will skip the current the iteration or move the next iteration
+
+
+Classes Object
+
+ClassName
+ClassName objectName = new ClassName();
+
+
+class Calc {
+int num1;
+public void fun() { print; }
+
+}
+Constructor name must be same as ClassName
+
+to call any method in java we require object, for main we
+also require object we can only create object once the execution
+starts and main is the starting point that's why it is a deadlock
+
+public static void main(String args[]) String array for taking any type and number of values
+
+constructor will never return anything that's why we write public
+public constructor () { } it is a member method, it will be use to allocate memory
+
+this keyword
+public void methodName() { }
+method overloading
+
+
+Static keyword
+for example if ceo is same for every employee we can make ceo static so it will be class type not object and
+don't need to assign ceo for every employee as the ceo is same for every employee
+
+className.staticvariablename and assign it and accessing we also use className
+
+static {
+     staticvariableName = value;
+}
+we cannot access non-static variable in static block
+
+Inner Class, there can be a class inside a class
+
+Outer obj = new Outer()
+obj.show()
+
+Outer.Inner obj1 = obj.new Inner();
+obj1.display()
+
+
+the name of classes in the file we have the same file and for inner we have Outer$inner.class file
+
+we can have static variable, methods and class
+
+Inner class have 3 types
+    Members class without static keyword
+    Static class with static keyword
+    Anonymous class
+
+
+Arrays
+1-D Array int [] a = new int[size];
+2-D Array int [][] a = new int[2][3];
+
+int d [][] = {
+	{1, 2, 3},
+	{2, 3, 4}
+};
+
+Jagged Array
+int d [][] = {
+	{1, 2, 3},
+	{2, 3},
+	{1, 2, 3, 4}
+};
+
+
+
+
+for(i=0;i<arr.length;i++) { }
+
+array of object 
+className s[] = new className[4];
+className s[] = {s1, s2, s3};
+
+//		Jagged Array
+	
+		int [][] arr2 = {
+			{1, 2, 3},
+			{2},
+			{2, 3, 4, 4, 5, 1},
+			{1, 2}
+		};
+	
+		for(int i = 0; i < 4; i++) {
+			for(int j = 0; j < arr2[i].length; j++) {
+				System.out.print(arr2[i][j] + " ");
+			}
+			System.out.println();
+		}
+
+
+
+
+Enhanced For Loop
+
+1-D Array
+	for(int a: arr) 
+		print(a)
+
+2-D Array
+	for(int a[]: arr)
+		for(int b: a)
+			print(l)
+
+
+Varargs ( variable length argument)
+we can pass multiple length arguments
+void fun(int ...n) // recieve an array
+
+
+Inheritance Is-A relationship
+Has A relationship variables of class or object of classes
+
+class parent/super {
+}
+class child/sub extends parent/super {
+}
+
+single A->B
+multi level inheritance A->B->C
+
+Super Method
+When we create an object of sub class it will automatically called
+the default constructor even we create a parametrized constructor of base class
+
+Every constructor in sup by default the super() method so it will be call
+default constructor of super class
+
+
+Multiple Inhertance:
+Inheritance and Abstract Class
+we can achieve multiple inhertance indirectly by interfaces
+which will be dicsuss later
+
+
+MethodOrverriding
+same function in sub class
+
+
+Dynamic Method Dispatch:
+super obj = new sub() //runtime
+obj.show() //orverride funtion
+it will call the show function of sub class because the object is
+of sub class not of super class
+In simple in this scenerio we can call the funtions which are there in
+super and it will call the funtion of sub class which is same or
+we can say overriden
+
+A obj1 = new B();
+obj1.show(); //if presnt in B call it, otherwise call the fun from A, otherwise error
+
+obj1 = new C();
+obj1.show(); /*Dynamic Method Dispatch*/    
+	//if presnt in A call the funtion of C otherwise error
+
+Method Orverriding is runtime polyphorphism
+Method Overloading is compiletime polyphorphism
+
+
+
+In simple if
+super obj = new sub();
+obj.show();  // will call all the function which are present in super, if functions present
+in sub and not present in super. It will throw an error
+
+obj = new C();
+obj.show(); // it will call the function of class C
+
+
+Encapsulation: Making variables private to used only by methods rather than to access directly
+object knows something whith the help of variables and object does something with the help of methods
+the only way to access the variables of class should be methods, so make variables private
+
+Why Encapsulation: to make our data of class is save
+we can maintain a log file in setters as after updating value just print it so it can be make sure what value is changed
+
+
+
+Wrapper Class | Autoboxing
+int, float, double primitive datatype
+instead of this we will be using classes as
+int i = 5;
+Integer i = new Integer(5); // wrapper class
+// both i variables will store the value 5
+
+int a = 5;
+Integer b = new Integer(a); // when passing the primitive variable in wrapper it is called Boxing | wrapping
+int c = b.intValue(); // unboxing | unwrapping
+Integer d = a; // AutoBoxing  | AutoWrapping
+int e = b; // AutoUnBoxing | AutoUnWrapping
+
+
+primitive work faster then wrapper but some frameworks only works with Wrapper Classes such as Hibernate
+String str = "123"; // if we want to fetch Integer from String we use
+int value = Integer.parseInt(str);
+
+Abstract Keyword:
+if we want that no-one can make object of our class we have to make in Abstract
+Whenever you have abstract mehtod in class it will compulsory that class should also be abstract
+If a class extends an abstract class it is compulsory to define those abstract methods in sub class, if we to do so the class will also become abstract
+
+subclass obj = new abstractclass();
+
+If abstract have a non-abstract function and sub class override it then on calling first it 
+will check in sub class otherwise move to super class and print the respective definition
+
+Why do need abstract class?
+rather than declaration of same methods over the sub classes
+
+
+Final Keyword:
+we can use Final keyword with variables, class and methods
+final is basically CONSTANT and in java we name CONSTANT variable in capital 
+final int I = 0;
+
+making class final will not allow anyone to extend it.
+
+we can use final with variable with to make it constant, with class to make it non-inheritable and we can use final with
+methods which will not allow it to be override.
+
+
+Interfaces:
+In interface all the methods are public abstract by default
+we can achieve multiple inheritance using implementing multiple interfaces
+In abstract we can define methods but in interfaces we cannot define methods just declare it and definition is defined in base class
+we cannot create object of interface can create refrence of it
+we don't have constructor in interfaces
+
+
+
+Anonymous Inner Class:
+If the only purpose of class is to override the function we don't declare a new class instead we use class
+
+Anonymous Class with interfaces:
+just make Anonymous class as we define upper it will work and consume less memory
+also calling function after anonymous class is must
+
+Functional Interface and Lambda Expression: 
+Types of interface:
+1. Normal Interface (More than one mehhod)
+2. Single Abstract Method Interface (only one method) in java 8(functional interface)
+3. Marker Interface (Doesn't contain any method)
+
+with the concept of functional interface we can work on Lambda expression which came from scala
+
+
+In java we have a lot of boiler olate code that's why most of people don't like it like in anonymous class, to counter this
+we have a concept named as Lambda expression 
+A obj =() -> System.out.println("In Functional Interface");
+obj.show();
+
+4:04

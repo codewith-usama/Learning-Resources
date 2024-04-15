@@ -1,0 +1,22 @@
+key 837b20639a5149e1a4db39249d9b131
+user usamakk45
+pass usama
+localhost:6553/
+
+
+
+user
+developer1
+usama
+
+using plugins we can connect anything jenkins
+
+It is web application written in Java
+
+We can add and create new users and assign them specific role, so they can just see jobs rather than to create
+
+Plugins is the heart of Jenkins
+
+
+
+
